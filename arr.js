@@ -10,8 +10,7 @@
 
 
 const arrayOfArrays=[[1, 2],[8,9], [4, 5, 1, 1], [1], [5, 6, 7, 8, 9]];
-if(arrayOfArrays!==null)
-{
+
 let arr=arrayOfArrays.map(el=>el.length)
   let temp=arr.sort((a,b)=>a<b?1:-1);
   for(let i=temp[0];i>=1;i--)
@@ -22,7 +21,7 @@ let arr=arrayOfArrays.map(el=>el.length)
     return 0;
 
     }
-}
+
 return 0;
 
     // Tests
