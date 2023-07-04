@@ -8,10 +8,9 @@ function GCF(arr) {
   
       // check if is factor of both integers
       if( arr[0] % i === 0 && arr[1] % i === 0) {
-          gcf = i;
+          return i;
       }
   }
-  return gcf;
   
   
   }
